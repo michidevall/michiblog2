@@ -3,7 +3,6 @@ from django_summernote.admin import SummernoteModelAdmin
 
 from .models import Comment, Post
 
-'iframe': True,
 
 
 class PostAdmin(SummernoteModelAdmin):
